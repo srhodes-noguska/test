@@ -1,7 +1,7 @@
 <?php
 $list = array
 (
-"Peter,Griffin,Oslo,Norway",
+"Peter,Griffin,Oslo,Norway, Region, George",
 "Glenn,Quagmire,Oslo,Norway",
 );
 
