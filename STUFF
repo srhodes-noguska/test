@@ -1,0 +1,30 @@
+<! RANDOM STUFF ->
+2-dp-shadow: {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+animation-for-everything(.smooth) {
+#either .2 or .3 seconds - no more, no less
+ transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+}
+
+{low contrast}
+#success     rgb(174, 232, 165)
+#warning     rgb(233, 235, 178)
+#failed      rgb(224, 151, 149)
+#info        rgb(155, 196, 226)
+#agoodpurple rgb(214, 164, 221)
+{/}
+{high contrast}
+#success     rgb(9, 184, 0)
+#warning     rgb(230, 220, 0)
+#failed      rgb(209, 0, 0)
+#info        rgb(0, 87, 217)
+{/}
+
+#text-color  rgb(59, 59, 59);
+Font - Google Noto! Every time {
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	
+	font-family: 'Noto Sans', sans-serif;
+}
